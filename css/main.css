@@ -1,0 +1,227 @@
+:root {
+	--sfb-color-dark2: #1f373f;
+	--sfb-color-dark1: #647474;
+	--sfb-color-medium3: #8a9895;
+	--sfb-color-medium2: #98a49c;
+	--sfb-color-medium1: #afbbb4;
+	--sfb-color-light3: #bbc5be;
+	--sfb-color-light2: #c6cfcb;
+	--sfb-color-light1: #d6dfdb;
+	--sfb-color-white: #ffffff;
+	--sfb-color-greendark: #788e71;
+	--sfb-color-greenmedium: #91a18d;
+}
+
+@font-face {
+	font-family: 'ely_rounded_medium';
+	src: url('/fonts/ely_rounded_medium-webfont.woff2') format('woff2'),
+		 url('/fonts/ely_rounded_medium-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'ely_rounded_medium';
+	background-color: var(--sfb-color-medium2);
+	color: var(--sfb-color-dark2);
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#sfbBuilderRoot {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	height: 100vh;
+	overflow: hidden;
+}
+
+#sfbHeaderRoot {
+	padding: 10px;
+}
+
+.sfbTitleLogo {
+	background-color: var(--sfb-color-light2);
+	border-left: 15px solid var(--sfb-color-dark2);
+	border-right: 100px solid var(--sfb-color-light3);
+	width: 25%;
+	margin-bottom: 5px
+}
+
+.sfbTitleLogo img {
+	max-height: 50px;
+	user-select: none;
+}
+
+.sfbSubTitle {
+	background-color: var(--sfb-color-dark2);
+	color: var(--sfb-color-light2);
+	height: 15px;
+	width: 25%;
+	font-size: 13px;
+	border-left: 15px solid var(--sfb-color-dark2);
+	border-right: 100px solid var(--sfb-color-dark2);
+	border-bottom: 3px solid var(--sfb-color-dark2);
+	white-space: nowrap;
+	float: left;
+}
+
+.sfbHeaderLink {
+	float: right;
+}
+
+.sfbSubTitleLine {
+	height: 3px;
+	background-color: var(--sfb-color-dark2);
+	width: 100%;
+}
+
+.sfbSubTitleAELogo {
+	float: right;
+	position: relative;
+	top: 10px;
+}
+
+#sfbButtonRoot {
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.sfbSmallButton {
+	width: 25px;
+	border: 2px solid var(--sfb-color-dark2);
+	border-radius: 10px;
+	padding: 3px;
+	margin: 5px;
+	font-size: 13px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+}
+
+.sfbButton {
+	border: 1px solid var(--sfb-color-dark2);
+	padding: 2px;
+	margin: 5px;
+	font-size: 16px;
+	display: inline-block;
+	text-align: left;
+	cursor: pointer;
+	flex-grow: 1;
+	white-space: nowrap;
+}
+
+.sfbButton:hover {
+	background-color: var(--sfb-color-light3);
+	border: 1px solid #ddebdf;
+}
+
+.sfbSmallButton:hover {
+	background-color: var(--sfb-color-light3);
+	border: 2px solid var(--sfb-color-light1);
+}
+
+.sfbButtonSelected {
+	background-color: var(--sfb-color-medium1);
+	border: 1px solid var(--sfb-color-medium1);
+}
+
+#sfbMainRoot {
+	background-color: var(--sfb-color-medium1);
+	flex-grow: 1;
+	min-height: 100px;
+	border-top: 2px solid var(--sfb-color-light2);
+	display: flex;
+	flex-direction: row;
+	overflow: auto;
+}
+
+.sfbMainTab {
+	padding-left: 25px;
+	flex-grow: 1;
+}
+
+#sfbFooterRoot {
+	height: 100px;
+	background-color:  var(--sfb-color-medium3);
+}
+
+.sfbFooterBox {
+	float: right;
+}
+
+.sfbFooter {
+	margin-right: 25px;
+	margin-left: 25px;
+	border-top: 2px solid var(--sfb-color-dark2);
+	border-bottom: 2px solid var(--sfb-color-dark2);
+	height: 80px;
+	font-size: 18px;
+	padding-left: 25px;
+	vertical-align: middle;
+	line-height: 80px;
+}
+
+#sfbEmployeeNumber {
+	font-size: 14px;
+	display: inline-block;
+	padding-left: 20px;
+}
+
+.sfbTabTitle {
+	font-size: 24px;
+	color: var(--sfb-color-dark1);
+	padding-bottom: 25px;
+}
+
+#sfbCharacterPortrait {
+	height: 100%;
+	object-fit: contain;
+	flex-grow: 1;
+}
+
+#sfbCharacterPortrait1 {
+	height: 400px;
+	display: none;
+}
+
+#sfbCountdownRoot {
+	flex-grow: 2;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.sfbCountdownTitle {
+	font-size: 30px;
+	padding: 10px;
+}
+
+#sfbCountdownValue {
+	font-size: 36px;
+	padding: 10px;
+}
+
+.sfbCountdownNote {
+	font-size: 24px;
+	padding: 10px;
+}
+
+.sfbCountdownMore {
+	padding-top: 20px;
+	text-align: left;
+	display: inline-block;
+}
+
+.sfbCountdownMore ul {
+	margin: 0;
+	padding: 0;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+}

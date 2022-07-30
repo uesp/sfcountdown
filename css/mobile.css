@@ -1,0 +1,57 @@
+#sfbHeaderRoot {
+	padding: 2px;
+}
+
+.sfbSubTitle {
+	display: none;
+}
+
+.sfbTitleLogo {
+	margin-bottom: 0px;
+}
+
+.sfbSubTitleAELogo {
+	top: 5px;
+}
+
+.sfbHeaderLink {
+	background-color: var(--sfb-color-dark2);
+	color: var(--sfb-color-light1);
+	float: left;
+	padding-left: 3px;
+	padding-right: 5px;
+	font-size: 15px;
+}
+
+.sfbHeaderLink a {
+	color: lightblue;
+}
+
+#sfbWarningRoot {
+	font-size: 12px;
+}
+
+#sfbButtonRoot {
+	padding: 2px;
+}
+
+#sfbMainBackground {
+	padding-left: 0;
+}
+
+#sfbFooterRoot {
+	height: 50px;
+}
+
+.sfbFooter {
+	margin-right: 5px;
+	margin-left: 5px;
+	border-top: 2px solid var(--sfb-color-dark2);
+	border-bottom: 2px solid var(--sfb-color-dark2);
+	height: 40px;
+	font-size: 13px;
+	padding-left: 5px;
+	vertical-align: middle;
+	line-height: 18px;
+}
+

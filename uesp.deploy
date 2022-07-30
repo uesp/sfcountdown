@@ -1,0 +1,16 @@
+name = sfcountdown
+description = Starfield Countdown
+repository = https://github.com/uesp/sfcountdown
+backup = false
+verbosity = 0
+
+staged = false
+
+ignore = *.deploy
+ignore = .hg*
+ignore = .git*
+
+dest = content1.uesp.net:/home/sfbuilder/www/countdown/
+dest = content2.uesp.net:/home/sfbuilder/www/countdown/
+dest = content3.uesp.net:/home/sfbuilder/www/countdown/
+
