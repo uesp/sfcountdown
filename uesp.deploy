@@ -10,7 +10,5 @@ ignore = *.deploy
 ignore = .hg*
 ignore = .git*
 
-dest = content1.uesp.net:/home/sfbuilder/www/countdown/
-dest = content2.uesp.net:/home/sfbuilder/www/countdown/
-dest = content3.uesp.net:/home/sfbuilder/www/countdown/
+dest = content3.uesp.net:/home/sfcountdown/www/
 
