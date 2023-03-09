@@ -1,6 +1,6 @@
 
 	// Current estimated release date
-g_sfbCountdownReleaseDate = new Date("2023-06-30T12:00:00");
+g_sfbCountdownReleaseDate = new Date("2023-09-06T00:00:00");
 
 
 function sfbUpdatePortraitSizes()
